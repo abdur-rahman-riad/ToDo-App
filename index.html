@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ToDo App</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="main-container">
+            <h2>JavaScript ToDo App</h2>
+
+            <!-- Input Option -->
+            <div class="input-option">
+                <input id="input-filed" type="text" maxlength="50" placeholder="Add your to do list here">
+                <button id="add-btn" class="add-button">Add</button>
+            </div>
+
+            <!-- Display List -->
+            <div id="display-container" class="display-item">
+                <div id="single-item" class="single-list">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas incidunt at fugit iste possimus
+                        nam dicta asperiores neque repellendus quaerat dolore tempora recusandae quas ut id dolorem,
+                        laboriosam voluptates quos quod? Minima explicabo quia ipsum deserunt ducimus? Laboriosam
+                        dolorem corrupti, repudiandae rerum ratione aperiam totam nihil qui, nam illo cum?</p>
+                    <img src="img/delete.png" alt="Delete Icon">
+                </div>
+            </div>
+
+            <!-- Clear All & Remaining Item -->
+            <div class="remaining-item">
+                <p id="remaining-item-id">Remaining Items: 2</p>
+                <button id="clear-all-btn" class="clear-button">Clear All</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © All Rights Reserved 2021 ToDo App</p>
+    </footer>
+
+    <!-- Custom JS File -->
+    <script src="app.js"></script>
+</body>
+
+</html>
