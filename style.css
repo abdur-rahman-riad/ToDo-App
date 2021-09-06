@@ -21,23 +21,26 @@ h2{
     display: grid;
     grid-template-columns: repeat(1, 1fr) 80px;
     column-gap: 5px;
+    box-shadow: 1px 1px 4px #d3d2d2;
+    padding: 15px;
+    border-radius: 4px;
 }
 input{
     padding: 5px 12px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Volkhov', serif;
 }
 .add-button{
     background-color: crimson;
     border: none;
     color: white;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 3px;
+    font-size: 14px;
     cursor: pointer;
     font-family: 'Volkhov', serif;
 }
 .display-item .single-list{
-    background-color: #f8f8f8;
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(1, 1fr) 30px;
     column-gap: 8px;
@@ -45,10 +48,13 @@ input{
     margin: 15px 0;
     padding: 3px 12px;
     align-items: center;
-    box-shadow: 1px 1px 3px #dbdbdb;
+    box-shadow: 1px 1px 4px #d3d2d2;
 }
 .display-item .single-list p{
     text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Volkhov', serif;
 }
 .display-item .single-list img{
     width: 28px;
@@ -62,8 +68,7 @@ input{
     margin-bottom: 8px;
     color: gray;
     font-style: italic;
-    font-family: 'Volkhov', serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 .clear-button{
     background-color: crimson;

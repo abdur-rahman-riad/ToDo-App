@@ -23,25 +23,19 @@
 
             <!-- Input Option -->
             <div class="input-option">
-                <input id="input-filed" type="text" maxlength="50" placeholder="Add your to do list here">
-                <button id="add-btn" class="add-button">Add</button>
+                <input id="input-filed" type="text" placeholder="Add your to do list here...">
+                <button onclick="addItem()" class="add-button">Add</button>
             </div>
 
             <!-- Display List -->
             <div id="display-container" class="display-item">
-                <div id="single-item" class="single-list">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas incidunt at fugit iste possimus
-                        nam dicta asperiores neque repellendus quaerat dolore tempora recusandae quas ut id dolorem,
-                        laboriosam voluptates quos quod? Minima explicabo quia ipsum deserunt ducimus? Laboriosam
-                        dolorem corrupti, repudiandae rerum ratione aperiam totam nihil qui, nam illo cum?</p>
-                    <img src="img/delete.png" alt="Delete Icon">
-                </div>
+
             </div>
 
             <!-- Clear All & Remaining Item -->
             <div class="remaining-item">
                 <p id="remaining-item-id">Remaining Items: 2</p>
-                <button id="clear-all-btn" class="clear-button">Clear All</button>
+                <button onclick="clearAllData()" class="clear-button">Clear All</button>
             </div>
         </section>
     </main>
